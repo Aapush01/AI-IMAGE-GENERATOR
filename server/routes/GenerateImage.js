@@ -1,5 +1,5 @@
 import express from "express";
-import { generateImage } from "../controllers/GenerateAIImage.js";
+import { generateImage } from "../controllers/GenerateImage.js";
 
 const router = express.Router();
 
