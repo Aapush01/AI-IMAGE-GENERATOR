@@ -114,7 +114,7 @@ const Home = () => {
   return (
     <Container>
       <Headline>
-      Dive into trending content in the Community!
+        Dive into trending content in the Community!
         <Span>⦿ Generated with AI ⦿</Span>
       </Headline>
       <SearchBar search={search} setSearch={setSearch} />
