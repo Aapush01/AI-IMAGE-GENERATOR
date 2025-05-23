@@ -115,8 +115,7 @@ const GenerateImageForm = ({
           leftIcon={<AutoAwesome />}
           isLoading={generateImageLoading}
           isDisabled={post.prompt === ""}
-          //onClick={() => generateImageFun()}
-          onClick={() => alert("Sorry OpenAIAPI is not responding")}
+          onClick={() => generateImageFun()}
         />
         <Button
           text="Post Image"
