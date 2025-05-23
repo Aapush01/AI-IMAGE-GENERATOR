@@ -25,7 +25,6 @@ AI-IMAGE-GENERATOR is a full-stack web application that turns simple text prompt
 | Technology   | Description                          |
 |--------------|--------------------------------------|
 | React        | Frontend library for UI              |
-| Tailwind CSS | Utility-first CSS framework          |
 | Node.js      | JavaScript runtime for backend       |
 | Express.js   | Web framework for Node.js            |
 | MongoDB      | NoSQL database                       |
@@ -40,12 +39,12 @@ AI-IMAGE-GENERATOR/
 │ └── src/  
 │ ├── components/  
 │ ├── pages/  
-│ └── App.jsx  
+│ └── App.js 
 ├── server/ # Backend (Node.js + Express)  
 │ ├── controllers/  
 │ ├── routes/  
 │ ├── models/  
-│ └── server.js  
+│ └── index.js  
 ├── README.md
 
 ---
@@ -62,12 +61,12 @@ cd AI-IMAGE-GENERATOR
 Backend
 ```bash
 cd server
-yarn install
+npm install
 ```
 Frontend
 ```
 cd client
-yarn install
+npm install
 ```
 ### 3.Configure Environment Variables
 In the `/server` directory, create a `.env` file:
